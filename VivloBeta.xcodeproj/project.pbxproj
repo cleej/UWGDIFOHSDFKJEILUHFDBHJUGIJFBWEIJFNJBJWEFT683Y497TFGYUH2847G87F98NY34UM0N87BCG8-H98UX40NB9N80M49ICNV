@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6FDB35E8779237F2D996B3 /* Pods_VivloBeta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A402955E99A9CF6CBBEF88 /* Pods_VivloBeta.framework */; };
+		D6975BE320D5F23900625AA0 /* ProfileDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6975BE220D5F23900625AA0 /* ProfileDatasourceController.swift */; };
+		D6975BE520D5F5B200625AA0 /* SeeMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6975BE420D5F5B200625AA0 /* SeeMoreButton.swift */; };
+		D6975BE720D5FCA600625AA0 /* ClassLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6975BE620D5FCA600625AA0 /* ClassLabel.swift */; };
+		D6A8578520C9AC7000414854 /* HomeHead-Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A8578420C9AC7000414854 /* HomeHead-Foot.swift */; };
+		D6A8578720C9B56A00414854 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A8578620C9B56A00414854 /* HomeDatasourceController.swift */; };
+		D6A8578B20C9F6BE00414854 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A8578A20C9F6BE00414854 /* HomeDatasource.swift */; };
+		D6A8578F20CA2E2400414854 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A8578E20CA2E2400414854 /* SubjectCell.swift */; };
+		D6A8579120CA457C00414854 /* SubjectOnHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A8579020CA457C00414854 /* SubjectOnHome.swift */; };
+		D6A857B420CB93F400414854 /* ClassDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857B320CB93F400414854 /* ClassDatasource.swift */; };
+		D6A857B620CBB78400414854 /* SubjectHome-Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857B520CBB78400414854 /* SubjectHome-Foot.swift */; };
+		D6A857B820CBF2B600414854 /* SubjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857B720CBF2B500414854 /* SubjectPage.swift */; };
+		D6A857BA20CBFA4300414854 /* ClassDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857B920CBFA4300414854 /* ClassDatasourceController.swift */; };
+		D6A857BC20CC10B000414854 /* MenuDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857BB20CC10B000414854 /* MenuDatasource.swift */; };
+		D6A857BE20CC10DF00414854 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857BD20CC10DF00414854 /* Menu.swift */; };
+		D6A857C020CC10EA00414854 /* MenuDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857BF20CC10EA00414854 /* MenuDatasourceController.swift */; };
+		D6A857C220CC14D200414854 /* ProfileDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857C120CC14D200414854 /* ProfileDatasource.swift */; };
+		D6A857C420CC150800414854 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857C320CC150800414854 /* ProfilePage.swift */; };
+		D6A857C620CC153500414854 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857C520CC153500414854 /* Profile.swift */; };
+		D6A857C820CC6D6900414854 /* ClassLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857C720CC6D6900414854 /* ClassLabelCell.swift */; };
+		D6A857CE20CDA91900414854 /* SubLabelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857CD20CDA91900414854 /* SubLabelTwo.swift */; };
+		D6A857D020CDAB2100414854 /* CurrentClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857CF20CDAB2100414854 /* CurrentClassCell.swift */; };
+		D6A857D220CDACF900414854 /* AchievementsLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857D120CDACF900414854 /* AchievementsLabelCell.swift */; };
+		D6A857DD20CEF39400414854 /* SignupOrLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857DC20CEF39400414854 /* SignupOrLoginPage.swift */; };
+		D6A857DF20CF299400414854 /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857DE20CF299400414854 /* SignupPage.swift */; };
+		D6A857E320D0590200414854 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857E220D0590200414854 /* LoginPage.swift */; };
+		D6A857E520D1D10500414854 /* MatchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857E420D1D10500414854 /* MatchesCell.swift */; };
+		D6A857E720D1E30D00414854 /* MatchProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857E620D1E30D00414854 /* MatchProfile.swift */; };
+		D6A857E920D3C54C00414854 /* ActivityLabelONLY.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857E820D3C54B00414854 /* ActivityLabelONLY.swift */; };
+		D6A857EB20D3D03600414854 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857EA20D3D03600414854 /* ActivityCell.swift */; };
+		D6A857ED20D3D04300414854 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857EC20D3D04300414854 /* Activity.swift */; };
+		D6A857F020D3DB6F00414854 /* ForumHead-Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857EF20D3DB6F00414854 /* ForumHead-Foot.swift */; };
+		D6A857F520D3DC9C00414854 /* ForumsDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857F420D3DC9C00414854 /* ForumsDatasourceController.swift */; };
+		D6A857F720D3DE3100414854 /* ForumsSubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857F620D3DE3100414854 /* ForumsSubjectCell.swift */; };
+		D6A857F920D3DFB600414854 /* ForumsOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857F820D3DFB600414854 /* ForumsOptionsCell.swift */; };
+		D6A857FB20D3E1C800414854 /* LeaderboardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857FA20D3E1C800414854 /* LeaderboardsCell.swift */; };
+		D6A857FD20D4035C00414854 /* LeaderboardUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A857FC20D4035C00414854 /* LeaderboardUser.swift */; };
+		D6D6B95820C9AB1200E11F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B95720C9AB1200E11F61 /* AppDelegate.swift */; };
+		D6D6B96020C9AB1200E11F61 /* VivloBeta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B95E20C9AB1200E11F61 /* VivloBeta.xcdatamodeld */; };
+		D6D6B96220C9AB1300E11F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B96120C9AB1300E11F61 /* Assets.xcassets */; };
+		DC82BA2E20D6E1B000CE51EE /* RandomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82BA2D20D6E1B000CE51EE /* RandomField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F76D8C4640C62D3FC0FFD59 /* Pods-VivloBeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivloBeta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivloBeta/Pods-VivloBeta.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DB9FC68668095F2CBCC6EB /* Pods-VivloBeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivloBeta.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivloBeta/Pods-VivloBeta.release.xcconfig"; sourceTree = "<group>"; };
+		D6975BE220D5F23900625AA0 /* ProfileDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDatasourceController.swift; sourceTree = "<group>"; };
+		D6975BE420D5F5B200625AA0 /* SeeMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMoreButton.swift; sourceTree = "<group>"; };
+		D6975BE620D5FCA600625AA0 /* ClassLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassLabel.swift; sourceTree = "<group>"; };
+		D6A8578420C9AC7000414854 /* HomeHead-Foot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeHead-Foot.swift"; sourceTree = "<group>"; };
+		D6A8578620C9B56A00414854 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		D6A8578A20C9F6BE00414854 /* HomeDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
+		D6A8578E20CA2E2400414854 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
+		D6A8579020CA457C00414854 /* SubjectOnHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectOnHome.swift; sourceTree = "<group>"; };
+		D6A857B320CB93F400414854 /* ClassDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDatasource.swift; sourceTree = "<group>"; };
+		D6A857B520CBB78400414854 /* SubjectHome-Foot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubjectHome-Foot.swift"; sourceTree = "<group>"; };
+		D6A857B720CBF2B500414854 /* SubjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectPage.swift; sourceTree = "<group>"; };
+		D6A857B920CBFA4300414854 /* ClassDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDatasourceController.swift; sourceTree = "<group>"; };
+		D6A857BB20CC10B000414854 /* MenuDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDatasource.swift; sourceTree = "<group>"; };
+		D6A857BD20CC10DF00414854 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D6A857BF20CC10EA00414854 /* MenuDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDatasourceController.swift; sourceTree = "<group>"; };
+		D6A857C120CC14D200414854 /* ProfileDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDatasource.swift; sourceTree = "<group>"; };
+		D6A857C320CC150800414854 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		D6A857C520CC153500414854 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D6A857C720CC6D6900414854 /* ClassLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassLabelCell.swift; sourceTree = "<group>"; };
+		D6A857CD20CDA91900414854 /* SubLabelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubLabelTwo.swift; sourceTree = "<group>"; };
+		D6A857CF20CDAB2100414854 /* CurrentClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentClassCell.swift; sourceTree = "<group>"; };
+		D6A857D120CDACF900414854 /* AchievementsLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsLabelCell.swift; sourceTree = "<group>"; };
+		D6A857DC20CEF39400414854 /* SignupOrLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupOrLoginPage.swift; sourceTree = "<group>"; };
+		D6A857DE20CF299400414854 /* SignupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPage.swift; sourceTree = "<group>"; };
+		D6A857E220D0590200414854 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		D6A857E420D1D10500414854 /* MatchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesCell.swift; sourceTree = "<group>"; };
+		D6A857E620D1E30D00414854 /* MatchProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchProfile.swift; sourceTree = "<group>"; };
+		D6A857E820D3C54B00414854 /* ActivityLabelONLY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLabelONLY.swift; sourceTree = "<group>"; };
+		D6A857EA20D3D03600414854 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		D6A857EC20D3D04300414854 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		D6A857EF20D3DB6F00414854 /* ForumHead-Foot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForumHead-Foot.swift"; sourceTree = "<group>"; };
+		D6A857F420D3DC9C00414854 /* ForumsDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumsDatasourceController.swift; sourceTree = "<group>"; };
+		D6A857F620D3DE3100414854 /* ForumsSubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumsSubjectCell.swift; sourceTree = "<group>"; };
+		D6A857F820D3DFB600414854 /* ForumsOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumsOptionsCell.swift; sourceTree = "<group>"; };
+		D6A857FA20D3E1C800414854 /* LeaderboardsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardsCell.swift; sourceTree = "<group>"; };
+		D6A857FC20D4035C00414854 /* LeaderboardUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardUser.swift; sourceTree = "<group>"; };
+		D6D6B95420C9AB1200E11F61 /* VivloBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivloBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D6B95720C9AB1200E11F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6D6B95F20C9AB1200E11F61 /* VivloBeta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VivloBeta.xcdatamodel; sourceTree = "<group>"; };
+		D6D6B96120C9AB1300E11F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6D6B96620C9AB1300E11F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC82BA2D20D6E1B000CE51EE /* RandomField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomField.swift; sourceTree = "<group>"; };
+		F9A402955E99A9CF6CBBEF88 /* Pods_VivloBeta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivloBeta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D6B95120C9AB1200E11F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6FDB35E8779237F2D996B3 /* Pods_VivloBeta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47AF83667C3C0C211DA231DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F76D8C4640C62D3FC0FFD59 /* Pods-VivloBeta.debug.xcconfig */,
+				B4DB9FC68668095F2CBCC6EB /* Pods-VivloBeta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		799F8CE1668FA95FF11E0917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9A402955E99A9CF6CBBEF88 /* Pods_VivloBeta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6975BDD20D5B48800625AA0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8578620C9B56A00414854 /* HomeDatasourceController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D6A857D320CDACFE00414854 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857C320CC150800414854 /* ProfilePage.swift */,
+				D6A857C720CC6D6900414854 /* ClassLabelCell.swift */,
+				D6A857CD20CDA91900414854 /* SubLabelTwo.swift */,
+				D6A857CF20CDAB2100414854 /* CurrentClassCell.swift */,
+				D6A857D120CDACF900414854 /* AchievementsLabelCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D6A857D420CDAD1800414854 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8578420C9AC7000414854 /* HomeHead-Foot.swift */,
+				D6975BE420D5F5B200625AA0 /* SeeMoreButton.swift */,
+				D6A857E420D1D10500414854 /* MatchesCell.swift */,
+				D6A8578E20CA2E2400414854 /* SubjectCell.swift */,
+				D6A857E820D3C54B00414854 /* ActivityLabelONLY.swift */,
+				D6A857EA20D3D03600414854 /* ActivityCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D6A857D520CDAD4200414854 /* Subject Page */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857B520CBB78400414854 /* SubjectHome-Foot.swift */,
+				D6975BE620D5FCA600625AA0 /* ClassLabel.swift */,
+			);
+			path = "Subject Page";
+			sourceTree = "<group>";
+		};
+		D6A857D620CDAD6600414854 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857BD20CC10DF00414854 /* Menu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D6A857D720CDAD9100414854 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8578A20C9F6BE00414854 /* HomeDatasource.swift */,
+				D6A8579020CA457C00414854 /* SubjectOnHome.swift */,
+				D6A857E620D1E30D00414854 /* MatchProfile.swift */,
+				D6A857EC20D3D04300414854 /* Activity.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D6A857D820CDADB900414854 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857C120CC14D200414854 /* ProfileDatasource.swift */,
+				D6A857C520CC153500414854 /* Profile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D6A857D920CDADD000414854 /* Subject Page */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857B320CB93F400414854 /* ClassDatasource.swift */,
+				D6A857B720CBF2B500414854 /* SubjectPage.swift */,
+			);
+			path = "Subject Page";
+			sourceTree = "<group>";
+		};
+		D6A857DA20CDADD900414854 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857BB20CC10B000414854 /* MenuDatasource.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D6A857DB20CEF37000414854 /* Signup&Login */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857DC20CEF39400414854 /* SignupOrLoginPage.swift */,
+				D6A857DE20CF299400414854 /* SignupPage.swift */,
+				D6A857E220D0590200414854 /* LoginPage.swift */,
+			);
+			path = "Signup&Login";
+			sourceTree = "<group>";
+		};
+		D6A857EE20D3DB5D00414854 /* Forums */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857EF20D3DB6F00414854 /* ForumHead-Foot.swift */,
+				D6A857F620D3DE3100414854 /* ForumsSubjectCell.swift */,
+				D6A857F820D3DFB600414854 /* ForumsOptionsCell.swift */,
+				D6A857FA20D3E1C800414854 /* LeaderboardsCell.swift */,
+			);
+			path = Forums;
+			sourceTree = "<group>";
+		};
+		D6A857F120D3DC5400414854 /* Forums */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857FC20D4035C00414854 /* LeaderboardUser.swift */,
+			);
+			path = Forums;
+			sourceTree = "<group>";
+		};
+		D6CDDE1220C9ABAA008C750F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857EE20D3DB5D00414854 /* Forums */,
+				D6A857DB20CEF37000414854 /* Signup&Login */,
+				D6A857D620CDAD6600414854 /* Menu */,
+				D6A857D520CDAD4200414854 /* Subject Page */,
+				D6A857D420CDAD1800414854 /* Home */,
+				D6A857D320CDACFE00414854 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6CDDE1320C9ABAF008C750F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6975BDD20D5B48800625AA0 /* Home */,
+				D6A857B920CBFA4300414854 /* ClassDatasourceController.swift */,
+				D6A857BF20CC10EA00414854 /* MenuDatasourceController.swift */,
+				D6A857F420D3DC9C00414854 /* ForumsDatasourceController.swift */,
+				D6975BE220D5F23900625AA0 /* ProfileDatasourceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6D6B94B20C9AB1200E11F61 = {
+			isa = PBXGroup;
+			children = (
+				D6D6B95620C9AB1200E11F61 /* VivloBeta */,
+				D6D6B95520C9AB1200E11F61 /* Products */,
+				47AF83667C3C0C211DA231DC /* Pods */,
+				799F8CE1668FA95FF11E0917 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D6B95520C9AB1200E11F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6B95420C9AB1200E11F61 /* VivloBeta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D6B95620C9AB1200E11F61 /* VivloBeta */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6B96C20C9AB7600E11F61 /* Model */,
+				D6CDDE1220C9ABAA008C750F /* View */,
+				D6CDDE1320C9ABAF008C750F /* Controller */,
+				D6D6B95720C9AB1200E11F61 /* AppDelegate.swift */,
+				D6D6B96120C9AB1300E11F61 /* Assets.xcassets */,
+				D6D6B96620C9AB1300E11F61 /* Info.plist */,
+				D6D6B95E20C9AB1200E11F61 /* VivloBeta.xcdatamodeld */,
+				DC82BA2D20D6E1B000CE51EE /* RandomField.swift */,
+			);
+			path = VivloBeta;
+			sourceTree = "<group>";
+		};
+		D6D6B96C20C9AB7600E11F61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6A857F120D3DC5400414854 /* Forums */,
+				D6A857DA20CDADD900414854 /* Menu */,
+				D6A857D920CDADD000414854 /* Subject Page */,
+				D6A857D820CDADB900414854 /* Profile */,
+				D6A857D720CDAD9100414854 /* Home */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D6B95320C9AB1200E11F61 /* VivloBeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6B96920C9AB1300E11F61 /* Build configuration list for PBXNativeTarget "VivloBeta" */;
+			buildPhases = (
+				FED5795E53311E9B4FF2C39E /* [CP] Check Pods Manifest.lock */,
+				D6D6B95020C9AB1200E11F61 /* Sources */,
+				D6D6B95120C9AB1200E11F61 /* Frameworks */,
+				D6D6B95220C9AB1200E11F61 /* Resources */,
+				052F22197E3BC56A5C82E248 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VivloBeta;
+			productName = VivloBeta;
+			productReference = D6D6B95420C9AB1200E11F61 /* VivloBeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D6B94C20C9AB1200E11F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Vivlo;
+				TargetAttributes = {
+					D6D6B95320C9AB1200E11F61 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D6D6B94F20C9AB1200E11F61 /* Build configuration list for PBXProject "VivloBeta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D6B94B20C9AB1200E11F61;
+			productRefGroup = D6D6B95520C9AB1200E11F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D6B95320C9AB1200E11F61 /* VivloBeta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D6B95220C9AB1200E11F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6B96220C9AB1300E11F61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		052F22197E3BC56A5C82E248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VivloBeta/Pods-VivloBeta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivloBeta/Pods-VivloBeta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED5795E53311E9B4FF2C39E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivloBeta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D6B95020C9AB1200E11F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A857FD20D4035C00414854 /* LeaderboardUser.swift in Sources */,
+				D6975BE720D5FCA600625AA0 /* ClassLabel.swift in Sources */,
+				D6A857ED20D3D04300414854 /* Activity.swift in Sources */,
+				D6D6B96020C9AB1200E11F61 /* VivloBeta.xcdatamodeld in Sources */,
+				D6A857C020CC10EA00414854 /* MenuDatasourceController.swift in Sources */,
+				D6A857F020D3DB6F00414854 /* ForumHead-Foot.swift in Sources */,
+				D6A8578F20CA2E2400414854 /* SubjectCell.swift in Sources */,
+				D6A857BE20CC10DF00414854 /* Menu.swift in Sources */,
+				D6A857DD20CEF39400414854 /* SignupOrLoginPage.swift in Sources */,
+				D6A8578720C9B56A00414854 /* HomeDatasourceController.swift in Sources */,
+				D6975BE520D5F5B200625AA0 /* SeeMoreButton.swift in Sources */,
+				D6A857BA20CBFA4300414854 /* ClassDatasourceController.swift in Sources */,
+				D6A857B420CB93F400414854 /* ClassDatasource.swift in Sources */,
+				D6A857E320D0590200414854 /* LoginPage.swift in Sources */,
+				DC82BA2E20D6E1B000CE51EE /* RandomField.swift in Sources */,
+				D6A857C620CC153500414854 /* Profile.swift in Sources */,
+				D6A857E520D1D10500414854 /* MatchesCell.swift in Sources */,
+				D6A8578520C9AC7000414854 /* HomeHead-Foot.swift in Sources */,
+				D6A857B820CBF2B600414854 /* SubjectPage.swift in Sources */,
+				D6A857E720D1E30D00414854 /* MatchProfile.swift in Sources */,
+				D6A857D220CDACF900414854 /* AchievementsLabelCell.swift in Sources */,
+				D6A857EB20D3D03600414854 /* ActivityCell.swift in Sources */,
+				D6A857BC20CC10B000414854 /* MenuDatasource.swift in Sources */,
+				D6A857F920D3DFB600414854 /* ForumsOptionsCell.swift in Sources */,
+				D6A857FB20D3E1C800414854 /* LeaderboardsCell.swift in Sources */,
+				D6A857E920D3C54C00414854 /* ActivityLabelONLY.swift in Sources */,
+				D6A857DF20CF299400414854 /* SignupPage.swift in Sources */,
+				D6A857F720D3DE3100414854 /* ForumsSubjectCell.swift in Sources */,
+				D6A857C420CC150800414854 /* ProfilePage.swift in Sources */,
+				D6A857B620CBB78400414854 /* SubjectHome-Foot.swift in Sources */,
+				D6975BE320D5F23900625AA0 /* ProfileDatasourceController.swift in Sources */,
+				D6A857D020CDAB2100414854 /* CurrentClassCell.swift in Sources */,
+				D6A857CE20CDA91900414854 /* SubLabelTwo.swift in Sources */,
+				D6A8579120CA457C00414854 /* SubjectOnHome.swift in Sources */,
+				D6A8578B20C9F6BE00414854 /* HomeDatasource.swift in Sources */,
+				D6A857C820CC6D6900414854 /* ClassLabelCell.swift in Sources */,
+				D6D6B95820C9AB1200E11F61 /* AppDelegate.swift in Sources */,
+				D6A857C220CC14D200414854 /* ProfileDatasource.swift in Sources */,
+				D6A857F520D3DC9C00414854 /* ForumsDatasourceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6D6B96720C9AB1300E11F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6D6B96820C9AB1300E11F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D6B96A20C9AB1300E11F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F76D8C4640C62D3FC0FFD59 /* Pods-VivloBeta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4K3L6CQVE;
+				INFOPLIST_FILE = VivloBeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vivlo.VivloBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6D6B96B20C9AB1300E11F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DB9FC68668095F2CBCC6EB /* Pods-VivloBeta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4K3L6CQVE;
+				INFOPLIST_FILE = VivloBeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vivlo.VivloBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D6B94F20C9AB1200E11F61 /* Build configuration list for PBXProject "VivloBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6B96720C9AB1300E11F61 /* Debug */,
+				D6D6B96820C9AB1300E11F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D6B96920C9AB1300E11F61 /* Build configuration list for PBXNativeTarget "VivloBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6B96A20C9AB1300E11F61 /* Debug */,
+				D6D6B96B20C9AB1300E11F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6D6B95E20C9AB1200E11F61 /* VivloBeta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6D6B95F20C9AB1200E11F61 /* VivloBeta.xcdatamodel */,
+			);
+			currentVersion = D6D6B95F20C9AB1200E11F61 /* VivloBeta.xcdatamodel */;
+			path = VivloBeta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D6D6B94C20C9AB1200E11F61 /* Project object */;
+}
