@@ -48,7 +48,12 @@ class HomeDatasourceController: DatasourceController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: view.frame.height)
+        if indexPath.section == 0 {
+            return CGSize(width: view.frame.width, height: 600)
+        }
+        else {
+            return CGSize(width: view.frame.width, height: 90)
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {

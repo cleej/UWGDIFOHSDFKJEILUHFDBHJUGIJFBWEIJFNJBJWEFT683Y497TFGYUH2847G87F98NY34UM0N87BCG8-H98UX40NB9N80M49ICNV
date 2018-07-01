@@ -47,6 +47,8 @@
 		D6D6B95820C9AB1200E11F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B95720C9AB1200E11F61 /* AppDelegate.swift */; };
 		D6D6B96020C9AB1200E11F61 /* VivloBeta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B95E20C9AB1200E11F61 /* VivloBeta.xcdatamodeld */; };
 		D6D6B96220C9AB1300E11F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B96120C9AB1300E11F61 /* Assets.xcassets */; };
+		DC6609A720DF50B10071C852 /* subjectActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6609A620DF50B10071C852 /* subjectActivityCell.swift */; };
+		DC6609A920DF50BE0071C852 /* newActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6609A820DF50BE0071C852 /* newActivity.swift */; };
 		DC82BA2E20D6E1B000CE51EE /* RandomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82BA2D20D6E1B000CE51EE /* RandomField.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +96,8 @@
 		D6D6B95F20C9AB1200E11F61 /* VivloBeta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VivloBeta.xcdatamodel; sourceTree = "<group>"; };
 		D6D6B96120C9AB1300E11F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D6B96620C9AB1300E11F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6609A620DF50B10071C852 /* subjectActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subjectActivityCell.swift; sourceTree = "<group>"; };
+		DC6609A820DF50BE0071C852 /* newActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newActivity.swift; sourceTree = "<group>"; };
 		DC82BA2D20D6E1B000CE51EE /* RandomField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomField.swift; sourceTree = "<group>"; };
 		F9A402955E99A9CF6CBBEF88 /* Pods_VivloBeta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivloBeta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -297,6 +301,8 @@
 				D6D6B96620C9AB1300E11F61 /* Info.plist */,
 				D6D6B95E20C9AB1200E11F61 /* VivloBeta.xcdatamodeld */,
 				DC82BA2D20D6E1B000CE51EE /* RandomField.swift */,
+				DC6609A620DF50B10071C852 /* subjectActivityCell.swift */,
+				DC6609A820DF50BE0071C852 /* newActivity.swift */,
 			);
 			path = VivloBeta;
 			sourceTree = "<group>";
@@ -439,10 +445,12 @@
 			files = (
 				D6A857FD20D4035C00414854 /* LeaderboardUser.swift in Sources */,
 				D6975BE720D5FCA600625AA0 /* ClassLabel.swift in Sources */,
+				DC6609A720DF50B10071C852 /* subjectActivityCell.swift in Sources */,
 				D6A857ED20D3D04300414854 /* Activity.swift in Sources */,
 				D6D6B96020C9AB1200E11F61 /* VivloBeta.xcdatamodeld in Sources */,
 				D6A857C020CC10EA00414854 /* MenuDatasourceController.swift in Sources */,
 				D6A857F020D3DB6F00414854 /* ForumHead-Foot.swift in Sources */,
+				DC6609A920DF50BE0071C852 /* newActivity.swift in Sources */,
 				D6A8578F20CA2E2400414854 /* SubjectCell.swift in Sources */,
 				D6A857BE20CC10DF00414854 /* Menu.swift in Sources */,
 				D6A857DD20CEF39400414854 /* SignupOrLoginPage.swift in Sources */,
